@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class HellobootApplication {
+public class HellobootApplication_nospring {
   public static void main(String[] args) {
     ServletWebServerFactory serverFactory = new TomcatServletWebServerFactory();
     WebServer webServer = serverFactory.getWebServer(servletContext -> {
